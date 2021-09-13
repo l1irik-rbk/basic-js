@@ -17,6 +17,7 @@ const HALF_LIFE_PERIOD = 5730;
  * dateSample('WOOT!') => false
  *
  */
+
 export default function dateSample(sampleActivity) {
   let n = parseFloat(sampleActivity)
   if (typeof sampleActivity !== 'string' || isNaN(n) || n <= 0 || n >= 15) return false
