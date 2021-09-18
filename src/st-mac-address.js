@@ -30,7 +30,7 @@ export default function isMAC48Address(n) {
   for (let i = code1; i < code1 + 10; i ++) {
     digits += String.fromCharCode(i)
   }
-  console.log(digits)
+  
   for (let i = 0; i < str.length; i++) {
     if (letters.includes(str[i]) || digits.includes(str[i])) {
       return true 
